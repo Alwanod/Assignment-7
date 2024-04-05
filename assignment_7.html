@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #36919f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 18px; 
+            padding: 10px 20px; 
+            border: 1px solid #000000; 
+            border-radius: 5px; 
+        }
+
+        nav ul li a:hover {
+            background-color: #3e52c0;
+            color: #fff;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .book {
+            flex-basis: 48%;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .book img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .book-info {
+            text-align: center;
+        }
+
+      
+
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 24px;">Welcome to our Online Book Store</h1>
+    </header>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="assignment_7.html">Home</a></li>
+            <li><a href="login_7.html">Login</a></li>
+            <li><a href="catologue.html">Catalogue</a></li>
+            <li><a href="registration.html">Register</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="book">
+                <img src="book_1.jpg" alt="Book 1">
+                <div class="book-info">
+                    <h3>The Calculating Stars</h3>
+                    <p>Author: Mary Kowal</p>
+                    <p>Genre: Fiction</p>
+                    <p>Price: Rs.1200</p>
+                </div>
+            </div>
+            <div class="book">
+                <img src="book_2.jpg" alt="Book 2">
+                <div class="book-info">
+                    <h3>The Silent Patient</h3>
+                    <p>Author: Alex Michealides</p>
+                    <p>Genre: Mystery</p>
+                    <p>Price: Rs.1250</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
